@@ -1,0 +1,309 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/6/untitled-ontology-75"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/6/untitled-ontology-75">
+    <Prefix name="" IRI="http://www.semanticweb.org/fabíolaandrade/ontologies/2024/6/untitled-ontology-75"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Banca_de_jornal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Banco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_comercial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_de_convenções"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Centro_de_exposições"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comércio_de_carnes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edf_Ensino"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Comerc_Serv"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edif_Saude"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Edificacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Farmácia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loja_de_conveniência"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Loja_de_móveis"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mercado_público"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Oficina_mecânica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Posto_de_combustível"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pousada"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quiosque"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quitanda"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restaurante"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secundario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Supermercado"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Terciario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Venda_de_veículos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nivelAtencao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tipoEdifComercServ"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Banca_de_jornal"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banco"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_comercial"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_convenções"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Centro_de_exposições"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comércio_de_carnes"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edf_Ensino"/>
+        <Class IRI="#Edificacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Comerc_Serv"/>
+        <Class IRI="#Edificacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Edif_Saude"/>
+        <Class IRI="#Edificacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Farmácia"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hotel"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loja_de_conveniência"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Loja_de_móveis"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mercado_público"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motel"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oficina_mecânica"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Posto_de_combustível"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pousada"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primario"/>
+        <Class IRI="#nivelAtencao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quiosque"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quitanda"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restaurante"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secundario"/>
+        <Class IRI="#nivelAtencao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Supermercado"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Terciario"/>
+        <Class IRI="#nivelAtencao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Venda_de_veículos"/>
+        <Class IRI="#tipoEdifComercServ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nivelAtencao"/>
+        <Class IRI="#Edif_Saude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tipoEdifComercServ"/>
+        <Class IRI="#Edif_Comerc_Serv"/>
+    </SubClassOf>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Edf_Ensino</IRI>
+        <Literal xml:lang="pt">Edificação de ensino é aquela cujas atividades estão relacionadas à formação e/ou aperfeiçoamento e/ou pesquisa de cunho educacional.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edf_Ensino</IRI>
+        <Literal xml:lang="pt">Edificação de Ensino</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Edif_Comerc_Serv</IRI>
+        <Literal xml:lang="pt">Edificação de comércio ou serviços é uma edificação com funcionalidades comerciais ou de prestação de serviços.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Comerc_Serv</IRI>
+        <Literal xml:lang="pt">Edificação de Comércio e/ou Serviço</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Edif_Saude</IRI>
+        <Literal xml:lang="pt">Edificação de saúde é aquela cujas atividades estão relacionadas ao atendimento médico e/ou pesquisa no campo de saúde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edif_Saude</IRI>
+        <Literal xml:lang="pt">Edificação de Saúde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Edificacao</IRI>
+        <Literal xml:lang="pt">Agrupa as feições que representam os diferentes tipos de edificações no contexto urbano e rural.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Edificacao</IRI>
+        <Literal xml:lang="pt">Edificacao</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Posto_de_combustível</IRI>
+        <Literal xml:lang="pt">Posto de combustível é o local onde são feitos os abastecimentos de combustíveis aos veículos e embarcações que trafegam por uma via de transporte.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Primario</IRI>
+        <Literal xml:lang="pt">Abrange os postos ou centros de saúde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Primario</IRI>
+        <Literal xml:lang="pt">Primário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Secundario</IRI>
+        <Literal xml:lang="pt">Abrange os hospitais gerais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Secundario</IRI>
+        <Literal xml:lang="pt">Secundário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Terciario</IRI>
+        <Literal xml:lang="pt">Abrange os hospitais especializados.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Terciario</IRI>
+        <Literal xml:lang="pt">Terciário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#nivelAtencao</IRI>
+        <Literal xml:lang="pt">Indica o nível de atenção à saúde.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#nivelAtencao</IRI>
+        <Literal xml:lang="pt">Nível de atenção</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tipoEdifComercServ</IRI>
+        <Literal xml:lang="pt">Indica o tipo da edificação comercial ou de serviços.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
